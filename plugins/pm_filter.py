@@ -425,7 +425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎰 𝔢𝔵𝔱𝔯𝔞 𝔪𝔬𝔡𝔰', callback_data='extra'),
             InlineKeyboardButton('🎗𝔥𝔬𝔪𝔢', callback_data='start')
         ], [
-            InlineKeyboardButton('𝔶𝔱-𝔦𝔫𝔰𝔱𝔞 𝔡𝔬𝔴𝔫𝔩𝔬𝔞𝔡𝔢𝔯 📥', url='https://t.me/youtube_instagram_downloaderbot')
+            InlineKeyboardButton('𝔴𝔬𝔯𝔩𝔡 𝔴𝔦𝔡𝔢 𝔪𝔬𝔳𝔦𝔢𝔰🧪', url='https://t.me/world_wide_movies')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
