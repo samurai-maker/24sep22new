@@ -8,14 +8,13 @@
       "filter",
       "best",
       "indian",
-      "pyrogram",
       "media",
       "search",
       "channel",
       "index",
       "inline"
     ],
-    "repository": "https://github.com/samurai-maker/neeeewfilta",
+    "repository": "https://github.com/samurai-maker/neeewgroupfilta30",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
