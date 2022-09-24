@@ -63,9 +63,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                     "📧 𝔧𝔬𝔦𝔫 𝔲𝔭𝔡𝔞𝔱𝔢𝔰 𝔠𝔥𝔞𝔫𝔫𝔢𝔩", url='https://t.me/world_wide_movies'
+                     "📧 𝔲𝔭𝔡𝔞𝔱𝔢𝔰 𝔠𝔥𝔞𝔫𝔫𝔢𝔩", url='https://t.me/world_wide_movies'
                 )
-            ]
+            ], [
+                                InlineKeyboardButton("🎭 𝖈𝖍𝖆𝖓𝖓𝖊𝖑 1", url='https://t.me/wwm_seriess')
+                            ], [
+                                InlineKeyboardButton("🎭 𝖈𝖍𝖆𝖓𝖓𝖊𝖑 2", url='https://t.me/status_world_new')
+                            ]
         ]
 
         if message.command[1] != "subscribe":
@@ -77,7 +81,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join our Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
